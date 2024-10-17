@@ -100,7 +100,7 @@ body {
 }
 
 .quotes {
-    text-align: left; /* Center the text horizontally */
+    text-align: right; /* Center the text horizontally */
 }
 
 .quotes p {
@@ -112,6 +112,7 @@ body {
 }
 
 .quotes h2 {
+    text-align: center;
     font-family: 'Lato', sans-serif; /* Change the font family to Lato */
     font-size: 24px; /* Resize the font to 24px */
     color: #333; /* Change the text color to a darker gray */
