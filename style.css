@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "popins", sans-sherif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ffe3e3;
+}
+
+
+body {
+    font-family: 'Merriweather', serif;
+    /* oder 'Open Sans', sans-serif; */
+    font-size: 1.2em;
+    /* Schriftgröße verringert */
+    line-height: 1.5;                   
+    /* Zeilenhöhe verringert */
+    background-color: #0591a3;     /*Background Color*/
+    color: #000000;                /*Text Color*/
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    /* Margin verringert */
+    padding: 15px;
+    /* Padding verringert */
+    background-color: #0b6386;             /*Timer Box Color*/
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    font-size: 1em;
+    /* Schriftgröße für Absätze verringert */
+    margin-bottom: 15px;
+    /* Margin verringert */
+    text-align: justify;
+    /* Textausrichtung beibehalten */
+    padding: 5px;
+    /* Padding verringert */
+}
+
+
+.container h1 {
+    color: #000000;         /* Timer  Color*/
+    font-family: 'Quicksand', sans-serif; /* A rounded font, you may need to import it */
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #9dc4eb;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}
+
+.quotes {
+    text-align: center; /* Center the text horizontally */
+}
+
+.quotes p {
+    font-family: 'Open Sans', sans-serif; /* Change the font family to Open Sans */
+    font-size: 18px; /* Resize the font to 18px */
+    color: #666; /* Change the text color to a darker gray */
+    font-weight: bold; /* Make the text bold */
+}
+
+.quotes h2 {
+    font-family: 'Lato', sans-serif; /* Change the font family to Lato */
+    font-size: 24px; /* Resize the font to 24px */
+    color: #333; /* Change the text color to a darker gray */
+    font-weight: 600; /* Make the text semi-bold */
+}
