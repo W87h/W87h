@@ -104,7 +104,6 @@ body {
 }
 
 .quotes p {
-    text-align: center;
     font-family: 'Open Sans', sans-serif; /* Change the font family to Open Sans */
     font-size: 18px; /* Resize the font to 18px */
     color: #666; /* Change the text color to a darker gray */
